@@ -2,14 +2,14 @@ public class Operators {
 	public static void main(String[] args) {
 		int a = 10;
 		int b = 20;
-		// Arithemetic Operators
+		// Arithemetic Operators are +, -, *, /, %
 		System.out.println(" Additional= " + (a + b));
 		System.out.println(" Substraction = " + (a - b));
 		System.out.println(" Multiplication = " + (a * b));
 		System.out.println(" Division = " + (a / b));
 		System.out.println(" Modulus = " + (a % b));
 
-		// Unary operators
+		// Unary operators are ++, --
 		// a = 10
 		System.out.println(" Pre Increment = " + (++a)); // a = 11
 		// a = 11
@@ -23,7 +23,7 @@ public class Operators {
 		System.out.println(" Post Decrement = " + (b--)); // b = 19
 		// b = 18
 
-		// Relational Operators
+		// Relational Operators are ==, !=, >, <, >=, <=
 		System.out.println(" Equal to = " + (a == b)); // false
 		System.out.println(" Not Equal to = " + (a != b)); // true
 		System.out.println(" Greater than = " + (a > b)); // false
@@ -31,14 +31,14 @@ public class Operators {
 		System.out.println(" Greater than or Equal to = " + (a >= b)); // false
 		System.out.println(" Less than or Equal to = " + (a <= b)); // true
 		
-		// Logical Operators
+		// Logical Operators are &&, ||, !
 		System.out.println(" Logical AND = " + ((a == b) && (a != b))); // false
 		System.out.println(" Logical OR = " + ((a == b) || (a != b))); // true
 		System.out.println(" Logical NOT = " + !(a == b)); // true
 
 		int num1 = 200;
 		int num2 = 300;
-		// Assignment Operators
+		// Assignment Operators are =, +=, -=, *=, /=, %=
 		num1 += num2; // num1 = num1 + num2
 		System.out.println(" += " + num1); // 500
 
@@ -54,6 +54,11 @@ public class Operators {
 		num1 %= num2; // num1 = num1 % num2
 		System.out.println(" %= " + num1); // 200
 
+		// Terinary Operator is ?:
+		int num3 = 10;
+		int num4 = 20;
+		int result = (num3 > num4) ? num3 : num4;
+		System.out.println(" Terinary Operator = " + result); // 20
 		
 
 	}
