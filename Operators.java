@@ -35,5 +35,26 @@ public class Operators {
 		System.out.println(" Logical AND = " + ((a == b) && (a != b))); // false
 		System.out.println(" Logical OR = " + ((a == b) || (a != b))); // true
 		System.out.println(" Logical NOT = " + !(a == b)); // true
+
+		int num1 = 200;
+		int num2 = 300;
+		// Assignment Operators
+		num1 += num2; // num1 = num1 + num2
+		System.out.println(" += " + num1); // 500
+
+		num1 -= num2; // num1 = num1 - num2
+		System.out.println(" -= " + num1); // 200
+
+		num1 *= num2; // num1 = num1 * num2
+		System.out.println(" *= " + num1); // 60000
+
+		num1 /= num2; // num1 = num1 / num2
+		System.out.println(" /= " + num1); // 200
+
+		num1 %= num2; // num1 = num1 % num2
+		System.out.println(" %= " + num1); // 200
+
+		
+
 	}
 }
